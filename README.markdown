@@ -13,4 +13,4 @@ Washington Botelho [[Blog](http://wbotelhos.com.br) | [Twitter](http://twitter.c
 
 ## Buy me a coffee
 
-You can do it by [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=X8HEP2878NDEG&item_name=jQuery%20Styly). Thanks! (:
+You can do it by [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=X8HEP2878NDEG&item_name=Blog). Thanks! (:
