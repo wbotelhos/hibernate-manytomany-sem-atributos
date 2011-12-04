@@ -19,21 +19,26 @@ public class Programa {
 	public static void main(String[] args) {
 		EntityManager manager = JPAHelper.getEntityManager();
 
+		// Cria e salva o acesso 1.
 		Acesso acesso1 = new Acesso();
 		acesso1.setNome("acesso-1");
 		acesso1 = manager.merge(acesso1);
 
+		// Cria e salva o acesso 2.
 		Acesso acesso2 = new Acesso();
 		acesso2.setNome("acesso-2");
 		acesso2 = manager.merge(acesso2);
 
+		// Cria a lista dos acessos.
 		Collection<Acesso> acessoList = Arrays.asList(acesso1, acesso2);
 
+		// Cria e salva o perfil 1 com os dois acesso.
 		Perfil perfil1 = new Perfil();
 		perfil1.setNome("perfil-1");
 		perfil1.setAcessoList(acessoList);
 		manager.merge(perfil1);
 
+		// Cria e salva o perfil 2 com os dois acesso.
 		Perfil perfil2 = new Perfil();
 		perfil2.setNome("perfil-2");
 		perfil2.setAcessoList(acessoList);
